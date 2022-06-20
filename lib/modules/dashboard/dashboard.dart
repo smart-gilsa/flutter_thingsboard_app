@@ -280,7 +280,7 @@ class _DashboardState extends TbContextState<Dashboard> {
                   } else {
                     return Stack(
                         children: [
-                          UniversalPlatform.isWeb ? Center(child: Text('Not implemented!')) :
+                          // UniversalPlatform.isWeb ? Center(child: Text('Not implemented!')) :
                           InAppWebView(
                             key: webViewKey,
                             initialUrlRequest: URLRequest(url: _initialUrl),
